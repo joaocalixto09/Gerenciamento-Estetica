@@ -1,10 +1,21 @@
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import "./styles/layout.css";
+
 function App() {
 
   return (
-    <div>
+    <div className="app">
+      <Header />
 
-      <h1>BeautyManager</h1>
+      <div className="main">
+        <Sidebar />
 
+        <div className="conyent">
+          <h1>Tela de Agendamento</h1>
+
+        </div>
+      </div>
     </div>
   );
 }
