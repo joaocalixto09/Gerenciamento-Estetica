@@ -11,7 +11,7 @@ function App() {
       <div className="main">
         <Sidebar />
 
-        <div className="conyent">
+        <div className="content">
           <h1>Tela de Agendamento</h1>
 
         </div>
