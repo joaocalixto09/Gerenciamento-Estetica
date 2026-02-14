@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import "./styles/layout.css";
+import Agendamento from "./pages/Agendamento";
 
 function App() {
 
@@ -12,8 +13,7 @@ function App() {
         <Sidebar />
 
         <div className="content">
-          <h1>Tela de Agendamento</h1>
-
+          <Agendamento />
         </div>
       </div>
     </div>
